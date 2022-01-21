@@ -9,6 +9,7 @@ def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Proyecto1.settings')
     try:
         from django.core.management import execute_from_command_line
+        print("Este es un conflicto")
         hola = "Commentario";
         variable = "Variable 2";
         variable2 = "Variable 3";
@@ -23,4 +24,5 @@ def main():
 
 
 if __name__ == '__main__':
+    # Este no debe ser un problema para de conflicto
     main()
