@@ -10,9 +10,9 @@ def main():
     try:
         from django.core.management import execute_from_command_line
         print("Este es un conflicto")
-        hola = "Commentario";
-        variable = "Variable 2";
-        variable2 = "Variable 3";
+        hola = "Commentario"
+        variable = "Variable 2"
+        variable2 = "Variable 3"
 
     except ImportError as exc:
         raise ImportError(
