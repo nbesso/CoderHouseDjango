@@ -14,7 +14,9 @@ def main():
         hola = "Commentario"
         variable = "Variable 2"
         variable2 = "Variable 3"
-
+        print("Este es un conflicto para la segunda prueba")
+        print("Este es un conflicto para la segunda prueba")
+        print("Este es un conflicto para la segunda prueba")
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
