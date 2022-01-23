@@ -1,4 +1,5 @@
 from django.http import HttpResponse
+from django.shortcuts import render, redirect
 from datetime import datetime
 
 
@@ -19,3 +20,7 @@ def dia_de_hoy(request):
 def mi_nombre(request, nombre):
     message = f"<h1>Hola!</h1></br><p>Recuerden que la persona conctada es {nombre}</p>"
     return HttpResponse(message)
+
+
+def template1(request):
+    return render(request, "template1.html")
